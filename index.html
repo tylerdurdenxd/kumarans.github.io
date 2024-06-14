@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Special Message for Nikitha</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f9f9f9;
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+        .container {
+            background: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            color: #ff69b4;
+        }
+        p {
+            font-size: 18px;
+            color: #555;
+        }
+        #secretMessage {
+            display: none;
+            margin-top: 20px;
+            font-size: 16px;
+            color: #333;
+        }
+        button {
+            background-color: #ff69b4;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        button:hover {
+            background-color: #ff1493;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Hello, Nikitha!</h1>
+        <p>I have a special message for you, but you'll need to click the button below to reveal it. Can you wait for just a moment more?</p>
+        <button onclick="showMessage()">Click Me</button>
+        <p id="secretMessage">With all my love and affection, I want you to know that you mean the world to me. Every moment with you is a treasure. - Kumaran</p>
+    </div>
+
+    <script>
+        function showMessage() {
+            document.getElementById('secretMessage').style.display = 'block';
+        }
+    </script>
+</body>
+</html>
